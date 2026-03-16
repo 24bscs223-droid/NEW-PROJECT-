@@ -1,0 +1,2 @@
+# Bluetooth Proximity Screen Control – laptop dependencies
+bleak>=0.21.1

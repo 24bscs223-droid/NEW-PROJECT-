@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <!-- App icon / illustration -->
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@android:drawable/stat_sys_data_bluetooth"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="24dp" />
+
+    <!-- App title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Sub-title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Dynamic status label -->
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_stopped"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Start / Stop button -->
+    <Button
+        android:id="@+id/toggle_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start_beacon"
+        android:padding="12dp" />
+
+    <!-- Instruction text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="8dp" />
+
+</LinearLayout>

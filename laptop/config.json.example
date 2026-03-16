@@ -1,0 +1,11 @@
+{
+  "device_name": "ProximityLock",
+  "device_address": "",
+  "rssi_lock_threshold": -70,
+  "rssi_hysteresis": 8,
+  "scan_interval_seconds": 3,
+  "miss_count_before_lock": 3,
+  "ble_scan_duration_seconds": 2.0,
+  "enable_screen_control": true,
+  "log_level": "INFO"
+}
