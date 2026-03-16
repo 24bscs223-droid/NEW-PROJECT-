@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ProximityLock</string>
-    <string name="subtitle">Auto lock/unlock your laptop\nwhen your phone is nearby</string>
-    <string name="status_stopped">⬛  Beacon stopped</string>
-    <string name="status_advertising">🟢  Advertising BLE beacon…</string>
-    <string name="start_beacon">Start Beacon</string>
-    <string name="stop_beacon">Stop Beacon</string>
-    <string name="instructions">Keep this app running in the background.\nMake sure Bluetooth is on.\nThe laptop will lock when you walk away\nand unlock when you return.</string>
-</resources>
